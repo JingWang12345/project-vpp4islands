@@ -3,24 +3,54 @@
     margin: 0;
     font-family: 'Open Sans Light';
     letter-spacing: .05em;
+    box-sizing: border-box;
+    border: solid 2px rebeccapurple
+    ;
 }
 
 html,
 body {
-    height: 100%;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.container-index{
+    height: 100vh;
+    background-image: url('./assets/F2.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border:#0052D4 50px  solid;  
+
+}
+
+h1{
+
+}
+/* --------------Login--------------------------------- */
+.nav-bar{
+font-size: x-large;
+display: flex;
+width: 300px;
+justify-content: space-between;
 }
 
 .container {
-    height: 100%;
-    background: #0052D4;  
-    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  
-    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); 
+    height: 100vh;
+    background-image: url('./assets/F1.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border:#0052D4 50px  solid;
     
+     /* background: #0052D4;   
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  */
+     
 }
 
 .login-wrapper {
     background-color: #fff;
-    width: 250px;
+    width: 300px;
     height: 500px;
     padding: 0 50px;
     position: relative;
@@ -61,3 +91,36 @@ body {
     color:white;
 }
 
+a{
+    color: #fafafa;
+}
+
+/* --------------Register--------------------------------- */
+
+.container-register{
+    height: 100vh;
+    background-image: url('./assets/G3.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border:#0052D4 50px  solid;   
+}
+
+
+.img-flag{
+    width: 100px;
+    height: 61.8px;
+    display: flex;
+    justify-content: flex-end;
+    gap:50px;
+}
+
+.register-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
