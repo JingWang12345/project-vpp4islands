@@ -26,8 +26,8 @@ body {
 
 .nav-bar1 {
     font-size: xx-large;
-    background-color: grey;
-    border-radius: 15px;
+    /* background-color: grey;
+    border-radius: 15px; */
     display: flex;
     width: 650px;
     align-items: center;
@@ -35,11 +35,6 @@ body {
     margin-left: 250px;
     justify-content: space-between; 
 
-}
-
-.img-vpp{
-    display: flex;
-    justify-content: center;
 }
 
 .home-letter {
@@ -73,8 +68,8 @@ h1 {
 
 .nav-bar {
     font-size: xx-large;
-    background-color: grey;
-    border-radius: 15px;
+    /* background-color: grey; */
+    /* border-radius: 15px; */
     display: flex;
     width: 650px;
     align-items: center;
@@ -136,6 +131,7 @@ h1 {
     padding: 5px;
     margin-top: 40px;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+    border-radius: 15px;
     color: white;
 }
 
@@ -197,8 +193,20 @@ a {
     left: 50%;
     top: 20%;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .btn3{
+    margin: 20%;
+    padding: 3%;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  
+    border-radius: 15px;
+    color: #fafafa;
+    font-size: 15px;
 }
+
+
+/* ----------------------------View---------------------------------------- */
+
