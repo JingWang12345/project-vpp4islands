@@ -4,7 +4,7 @@
     font-family: 'Open Sans Light';
     letter-spacing: .05em;
     box-sizing: border-box;
-    border: solid 2px rebeccapurple
+    /* border: solid 2px rebeccapurple */
     ;
 }
 
@@ -25,43 +25,62 @@ body {
 }
 
 .nav-bar1 {
+    font-size: xx-large;
+    background-color: grey;
+    border-radius: 15px;
     display: flex;
-    width: 60%;
-    justify-content:center; 
+    width: 650px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 250px;
+    justify-content: space-between; 
 
+}
+
+.img-vpp{
+    display: flex;
+    justify-content: center;
 }
 
 .home-letter {
     position: absolute;
-    left: 10%;
+    left: 20%;
     top: 26%;
     height: 300px;
     width: 800px;
+    background-color: rgba(100, 100, 100, .2);
+    box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
   
   
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .home-img {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 80%;
     width: 200px;
     height: 61.8px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* --------------Login--------------------------------- */
 
 .nav-bar {
-    font-size: x-large;
+    font-size: xx-large;
+    background-color: grey;
+    border-radius: 15px;
     display: flex;
-    width: 300px;
-    justify-content: space-between;
+    width: 650px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 350px;
+    justify-content: space-between;  
 }
 
 .container {
@@ -139,8 +158,11 @@ a {
     font-size: x-large;
     display: flex;
     width: 650px;
-  align-items: center;
+    align-items: center;
+    margin-left: 50px;
     justify-content: space-between;
+
+    
 }
 
 .img-flag {
@@ -148,6 +170,7 @@ a {
     height: 61.8px;
     display: flex;
     justify-content: flex-end;
+    margin-right: 50px;
     gap: 50px;
 }
 
@@ -165,7 +188,8 @@ a {
 }
 
 .register-wrapper{
-    background-color: #fff;
+    background-color: rgba(100, 100, 100, .2);
+    box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6) ;
     width: 300px;
     height: 500px;
     padding: 50px 50px;
@@ -173,4 +197,8 @@ a {
     left: 50%;
     top: 20%;
     border-radius: 15px;
+}
+
+.btn3{
+    background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  
 }
