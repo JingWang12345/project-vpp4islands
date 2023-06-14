@@ -12,40 +12,69 @@ html,
 body {
     margin: 0px;
     padding: 0px;
-   
+
 }
 
-.container-index{
+.container-index {
     height: 100vh;
     background-image: url('./assets/F2.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    border:#0052D4 50px  solid;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #0052D4 50px solid;
 
 }
 
-h1{
+.nav-bar1 {
+    display: flex;
+    width: 60%;
+    justify-content:center; 
 
 }
+
+.home-letter {
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    height: 300px;
+    width: 800px;
+  
+  
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.home-img {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 200px;
+    height: 61.8px;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* --------------Login--------------------------------- */
-.nav-bar{
-font-size: x-large;
-display: flex;
-width: 300px;
-justify-content: space-between;
+
+.nav-bar {
+    font-size: x-large;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
 }
 
 .container {
     height: 100vh;
     background-image: url('./assets/F1.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    border:#0052D4 50px  solid;
-    
-     /* background: #0052D4;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #0052D4 50px solid;
+
+    /* background: #0052D4;   
     background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  
     background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  */
-     
+
 }
 
 .login-wrapper {
@@ -78,45 +107,70 @@ justify-content: space-between;
     outline: none;
 }
 
-.login-wrapper>*{
+.login-wrapper>* {
     text-transform: uppercase;
 }
 
 
-.login-wrapper .form-wrapper .btn{
+.login-wrapper .form-wrapper .btn {
     text-align: center;
     padding: 5px;
     margin-top: 40px;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
-    color:white;
+    color: white;
 }
 
-a{
+a {
     color: #fafafa;
+    text-decoration: none;
 }
 
 /* --------------Register--------------------------------- */
 
-.container-register{
+.container-register {
     height: 100vh;
     background-image: url('./assets/G3.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    border:#0052D4 50px  solid;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #0052D4 50px solid;
 }
 
+.nav-bar3{
+    font-size: x-large;
+    display: flex;
+    width: 650px;
+  align-items: center;
+    justify-content: space-between;
+}
 
-.img-flag{
+.img-flag {
     width: 100px;
     height: 61.8px;
     display: flex;
     justify-content: flex-end;
-    gap:50px;
+    gap: 50px;
 }
 
-.register-header{
+.register-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+
 }
 
+.letter-left{
+    width: 350px;
+    height: 300px;
+    padding: 50px;
+}
+
+.register-wrapper{
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    padding: 50px 50px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    border-radius: 15px;
+}
