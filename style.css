@@ -6,7 +6,7 @@
     font-family: 'Open Sans Light';
     letter-spacing: .05em;
     box-sizing: border-box;
-    border: solid 2px rebeccapurple;
+    /* border: solid 2px rebeccapurple; */
 }
 
 html,
@@ -46,20 +46,20 @@ body {
     border-radius: 15px;
 }
 
-h1 {
+.h1-index {
     font-size: 10vw;
     font-family: 'Domine', serif;
 }
 
-h2{
+.h2-index {
     font-size: 2vw;
     font-family: 'Domine', serif;
 }
 
-p{
-padding: 50px;
-font-family: 'Domine', serif;
-font-weight: 700;
+p {
+    padding: 50px;
+    font-family: 'Domine', serif;
+    font-weight: 700;
 }
 
 .home-img-container {
@@ -88,7 +88,7 @@ font-weight: 700;
 }
 
 .nav-bar {
-     width: 100vw;
+    width: 100vw;
     height: 20vh;
     display: flex;
     font-size: xx-large;
@@ -98,13 +98,13 @@ font-weight: 700;
 
 .login-wrapper {
     background-color: #fff;
-    width: 300px;
-    height: 500px;
-    padding: 0 50px;
+    width: 20vw;
+    height: 60vh;
+    padding: 0 4%;
     position: relative;
     left: 50%;
     border-radius: 15px;
-    top: 50%;
+    top: 35%;
     transform: translate(-50%, -50%);
 }
 
@@ -147,9 +147,9 @@ a {
 /* ----------------------------View---------------------------------------- */
 
 .btn2 {
-    width: 200px;
+    width: 12vw;
     padding: 5px;
-    margin-top: 40px;
+    margin-top: 10%;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
     border-radius: 15px;
     font-size: 15px;
@@ -161,70 +161,142 @@ a {
 
 .container-register {
     height: 100vh;
+    width: 100vw;
     background-image: url('./assets/G3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* border: #0052D4 50px solid; */
 }
 
+.register-header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
 .nav-bar3 {
     font-size: x-large;
     display: flex;
-    width: 650px;
+    width: 50VW;
     align-items: center;
-    margin-left: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .img-flag {
-    width: 100px;
-    height: 61.8px;
+    width: 50VW;
+    height: 8vh;
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 5%;
     gap: 50px;
 }
 
-.register-header {
-    width: 100%;
+.letter-left {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+    padding: 5%;
+
 }
 
-.letter-left {
-    width: 350px;
-    height: 300px;
-    padding: 50px;
-}
+.h1-register {}
+
+.h2-register {}
 
 .register-wrapper {
-    background-color: rgba(100, 100, 100, .2);
+    background-color:white;
     box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
-    width: 300px;
-    height: 500px;
-    padding: 50px 50px;
+    width: 20vw;
+    height: 60vh;
+    padding: 4%;
     position: absolute;
     left: 50%;
     top: 20%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
+   
 }
 
 
-.input-item-r {}
+.input-item-r {
+    font-size: 15px;
+    border: none;
+    padding: 6px;
+    border-bottom: 2px solid rgb(128, 125, 125);
+    
+}
+
+#interaction-select{
+    font-size: 15px;
+}
 
 .btn3 {
-    margin: 20%;
+    margin: 10%;
     padding: 3%;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
     border-radius: 15px;
-    color: #fafafa;
+    color: white;
     font-size: 15px;
+    border: none;
 }
 
 
 @media screen and (max-width: 420px) {
-    .nav-bar1 {}
+    .login-wrapper{
+       width: 80vw;
+     }
+
+     /* ----------------------------View---------------------------------------- */
+
+    .btn2 {
+        width: 70vw;
+    }
+     
+
+   /* --------------Register------------------------------------------------------------- */ 
+  
+ 
+   .register-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar3 {
+        width: 100vw;
+        height: 10vh;
+
+
+    }
+
+    .img-flag {
+        width: 100vw;
+        justify-content: space-around;
+        gap: none;
+    }
+
+    .flag {
+        width: 30vw;
+    }
+
+    .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .letter-left{
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .register-wrapper{
+      position:static;
+       width: 60vw;
+       height: 50vh;
+
+    }
 }
