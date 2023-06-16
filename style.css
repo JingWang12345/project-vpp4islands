@@ -6,7 +6,7 @@
     font-family: 'Open Sans Light';
     letter-spacing: .05em;
     box-sizing: border-box;
-    /* border: solid 2px rebeccapurple; */
+    border: solid 2px rebeccapurple;
 }
 
 html,
@@ -51,6 +51,11 @@ h1 {
     font-family: 'Domine', serif;
 }
 
+h2{
+    font-size: 2vw;
+    font-family: 'Domine', serif;
+}
+
 p{
 padding: 50px;
 font-family: 'Domine', serif;
@@ -72,22 +77,23 @@ font-weight: 700;
 
 /* ----------------Login------------------------------------------------- */
 
-.nav-bar {
-    font-size: xx-large;
-    display: flex;
-    width: 650px;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 350px;
-    justify-content: space-between;
-}
-
 .container {
     height: 100vh;
     background-image: url('./assets/F1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     /* border: #0052D4 50px solid; */
+}
+
+.nav-bar {
+     width: 100vw;
+    height: 20vh;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .login-wrapper {
