@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 * {
     padding: 0;
@@ -7,6 +7,7 @@
     letter-spacing: .05em;
     box-sizing: border-box;
     /* border: solid 2px rebeccapurple; */
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 html,
@@ -17,12 +18,13 @@ body {
 
 .container-index {
     height: 100vh;
-    background-image: url('./assets/F2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+  
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
     /* border: #0052D4 50px solid; */
+    
 }
 
 .nav-bar1 {
@@ -31,35 +33,51 @@ body {
     height: 20vh;
     font-size: xx-large;
     align-items: center;
-    justify-content: space-around;
+    justify-content:center;
+    gap: 2%;
 }
-
+.bar1{
+    width: 150px;
+    font-size: x-large;
+    border-radius: 15px;
+}
+.img-mask{
+    background-image: url('./assets/F2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* border-radius: 15px;   */
+}
 .home-letter {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+     height: 60vh;
     width: 100vw;
-    background-color: rgba(100, 100, 100, .2);
+    background-color: rgba(100, 100, 100, .6);
     box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .h1-index {
-    font-size: 10vw;
-    font-family: 'Domine', serif;
+    color: #fafafa;
+    font-size: 6vw;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .h2-index {
+    color: #fafafa;
     font-size: 2vw;
-    font-family: 'Domine', serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 p {
+    color: #fafafa;
     padding: 50px;
-    font-family: 'Domine', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
     font-weight: 700;
+    text-align: center;
 }
 
 .home-img-container {
@@ -140,7 +158,7 @@ p {
 }
 
 a {
-    color: #fafafa;
+    color: #557e55;
     text-decoration: none;
 }
 
