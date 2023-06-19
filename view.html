@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,34 @@
     <title>View</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div class="container">
+    <div class="container-v">
         <nav class="nav-bar">
-            <a href="index.html">Home</a>
-            <a href="login.html">Login</a>
-            <a href="">View</a>
+            <button class="bar1"> <a href="index.html">Home</a></button>
+            <button class="bar1"> <a href="login.html">Login</a></button>
+            <button class="bar1"> <a href="">View</a></button>
         </nav>
-        <div class="login-wrapper">
-            <div class="header">V</div>
-            <div class="form-wrapper">
-                <label for="interaction"></label>
-                <select name="interaction" id="interaction-select" class="input-item">
-                    <option value="basic">Eliges tu Shelly</option>
-                    <option value="full">full</option>
-                    <option value="root">root</option>
-                    <option value="read-only">read-only</option>
-                </select>
-                <input type="password" placeholder="pon tu contrasena" class="input-item">
+        <div class="view-wrapper">
+            <div class="left"></div>
+            <div class="right">
+                <div class="header-v">V</div>
+                <div class="form-wrapper-v">
+                    <label for="interaction"></label>
+                    <select name="interaction" id="interaction-select" class="input-item-v">
+                        <option value="basic">Eliges tu Shelly</option>
+                        <option value="full">full</option>
+                        <option value="root">root</option>
+                        <option value="read-only">read-only</option>
+                    </select>
+                    <input type="password" placeholder="pon tu contrasena" class="input-item-v">
+                </div>
                 <button class="btn2">Controla tus consumos </button>
             </div>
         </div>
 
     </div>
-    
+
 </body>
+
 </html>

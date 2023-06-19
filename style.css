@@ -33,12 +33,15 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2%;
+
 }
 
 .bar1 {
     width: 150px;
     font-size: x-large;
     border-radius: 15px;
+
+
 }
 
 .img-mask {
@@ -100,6 +103,7 @@ p {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
     /* border: #0052D4 50px solid; */
 }
 
@@ -117,34 +121,37 @@ p {
     background-image: url('./assets/F1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 60vh;
+    margin: 0 10%;
+    border-radius: 15px;
+}
+
+.login-wrapper {
+    background-color: rgba(100, 100, 100, .6);
+    box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 60vh;
+    padding: 0 4%;
+    border-radius: 15px;
+}
+
+.form-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.login-wrapper {
-    background-color: #fff;
-    width: 20vw;
-    height: 50vh;
-    padding: 0 4%;
-    border-radius: 15px;
-    /* position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); */
-}
-
 .header {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    line-height: 200px;
+    line-height: 150px;
 }
 
 .input-item {
     display: block;
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
     border: none;
     padding: 10px;
@@ -159,11 +166,11 @@ p {
 
 .btn {
     text-align: center;
+    width: 20%;
     padding: 5px;
     margin-top: 40px;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
     border-radius: 15px;
-    color: white;
 }
 
 a {
@@ -171,10 +178,71 @@ a {
     text-decoration: none;
 }
 
+.a-login {
+    color: white;
+}
+
 /* ----------------------------View---------------------------------------- */
+.container-v {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+.view-wrapper {
+    height: 60vh;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left {
+    background-image: url('./assets/F3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.header-v {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+}
+
+.form-wrapper-v {
+    width: 80%;
+}
+
+.input-item-v {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    border-bottom: 2px solid rgb(128, 125, 125);
+    font-size: 15px;
+    outline: none;
+    background-color: #fafafa;
+}
 
 .btn2 {
-    width: 12vw;
+    width: 50%;
     padding: 5px;
     margin-top: 10%;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
@@ -182,6 +250,9 @@ a {
     font-size: 15px;
     color: white;
     border: none;
+    text-align: center;
+
+
 }
 
 /* --------------Register------------------------------------------------------------- */
@@ -189,33 +260,56 @@ a {
 .container-register {
     height: 100vh;
     width: 100vw;
-    background-image: url('./assets/G3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+
     /* border: #0052D4 50px solid; */
 }
 
 .register-header {
-    width: 100vw;
+    width: 90vw;
+    height: 20vh;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 auto;
 }
 
 .nav-bar3 {
+    width: 60vw;
     font-size: x-large;
     display: flex;
-    width: 50VW;
     align-items: center;
     justify-content: space-around;
 }
 
+.bar3 {
+    width: 150px;
+    font-size: x-large;
+    border-radius: 15px;
+}
+
 .img-flag {
-    width: 50VW;
-    height: 8vh;
+    width: 40vw;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 50px;
+}
+
+.flag {
+    width: 8vw;
+    height: 6vh;
+
+}
+
+.middle-part {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 60vh;
+    margin: 0 auto;
 }
 
 .letter-left {
@@ -225,27 +319,26 @@ a {
     width: 50vw;
     height: 50vh;
     padding: 5%;
-
 }
 
-.h1-register {}
-
-.h2-register {}
+.background-img-register {
+    width: 60vw;
+    background-image: url('./assets/G3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
+}
 
 .register-wrapper {
     background-color: white;
     box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
-    width: 20vw;
-    height: 60vh;
+    width: 40vw;
     padding: 4%;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
-
 }
 
 
@@ -254,7 +347,6 @@ a {
     border: none;
     padding: 6px;
     border-bottom: 2px solid rgb(128, 125, 125);
-
 }
 
 #interaction-select {
@@ -263,7 +355,7 @@ a {
 
 .btn3 {
     margin: 10%;
-    padding: 3%;
+    padding: 1%;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
     border-radius: 15px;
     color: white;
@@ -275,7 +367,7 @@ a {
 @media screen and (max-width: 420px) {
     .login-wrapper {
         width: 80vw;
-    }
+    } 
 
     /* ----------------------------View---------------------------------------- */
 
@@ -320,10 +412,10 @@ a {
         height: 30vh;
     }
 
-    .register-wrapper {
+    /* .register-wrapper {
         position: static;
         width: 60vw;
         height: 50vh;
 
-    }
+    } */
 }
