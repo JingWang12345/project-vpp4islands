@@ -117,7 +117,7 @@ p {
     gap: 2%;
 }
 
-.backgrand-img-login {
+.background-img-login {
     background-image: url('./assets/F1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -365,57 +365,121 @@ a {
 
 
 @media screen and (max-width: 420px) {
+    .nav-bar1 {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .bar1 {
+        font-size: large;
+    }
+
+    /* --------------------------Login--------------- */
     .login-wrapper {
         width: 80vw;
-    } 
+    }
+
+    .nav-bar {
+        width: 80vw;
+        padding: 0 auto;
+        margin: auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .background-img-login {
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .btn {
+        width: 30vw;
+    }
 
     /* ----------------------------View---------------------------------------- */
 
     .btn2 {
-        width: 70vw;
+        width: 20vw;
     }
 
+    .view-wrapper {
+        flex-direction: column;
+
+    }
+
+    .left {
+        width: auto;
+    }
+
+    .right {
+        width: auto;
+    }
+
+    .btn2 {
+        width: auto;
+    }
 
     /* --------------Register------------------------------------------------------------- */
 
 
     .register-header {
-        display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .nav-bar3 {
-        width: 100vw;
+        width: 80vw;
         height: 10vh;
+        gap: 2%;
+        margin: 0 auto;
+    }
 
-
+    .bar3 {
+        font-size: large;
     }
 
     .img-flag {
-        width: 100vw;
-        justify-content: space-around;
-        gap: none;
+        width: 80vw;
+        height: 10vh;
+        align-items: end;
+        justify-content: end;
+        gap: 2%;
     }
 
     .flag {
-        width: 30vw;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        /* transform: scale(0.6); */
+
+    }
+
+    .middle-part {
+        flex-direction: column;
     }
 
     .form-wrapper {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .letter-left {
-        width: 100vw;
-        height: 30vh;
+        width: auto;
+        height: auto;
     }
 
-    /* .register-wrapper {
-        position: static;
-        width: 60vw;
-        height: 50vh;
+    .background-img-register {
+        width: 80vw;
+        height: 20vh;
+        margin: auto;
+        border-radius: 15px 15px 0 0;
+    }
 
-    } */
+    .register-wrapper {
+        width: 80vw;
+        height: 50vh;
+        margin: auto;
+        border-radius: 0 0 15px 15px;
+
+    }
 }
