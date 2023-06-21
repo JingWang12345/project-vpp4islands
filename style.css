@@ -38,6 +38,7 @@ body {
 
 .bar1 {
     width: 150px;
+    height: 40px;
     font-size: x-large;
     border-radius: 15px;
 
@@ -121,6 +122,8 @@ p {
 
 .background-img-login {
     background-image: url('./assets/F1.jpg');
+    /* background-image: url('./assets/G1.jpg'); */
+    /* background-image: url('./assets/G2.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
@@ -149,6 +152,7 @@ p {
     font-weight: bold;
     text-align: center;
     line-height: 150px;
+    color: white;
 }
 
 .input-item {
@@ -169,7 +173,7 @@ p {
 .btn {
     text-align: center;
     width: 20%;
-    padding: 5px;
+    padding: 8px;
     margin-top: 40px;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
     border-radius: 15px;
@@ -245,7 +249,7 @@ a {
 
 .btn2 {
     width: 50%;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10%;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
     border-radius: 15px;
@@ -287,6 +291,7 @@ a {
 
 .bar3 {
     width: 150px;
+    height: 40px;
     font-size: x-large;
     border-radius: 15px;
 }
@@ -301,9 +306,10 @@ a {
 }
 
 .flag {
-    width: 8vw;
+    width: 6vw;
     height: 6vh;
-
+   
+   
 }
 
 .middle-part {
@@ -317,11 +323,19 @@ a {
 .letter-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 50vw;
     height: 50vh;
     padding: 5%;
-}
+    color: #fafafa;
+  }
+
+   .h1-register{
+    text-shadow: black 0.1em 0.1em 0.2em
+  }
+ .h2-register{
+    text-shadow: black 0.1em 0.1em 0.2em
+ }  
 
 .background-img-register {
     width: 60vw;
@@ -353,11 +367,13 @@ a {
 
 #interaction-select {
     font-size: 15px;
+    padding: 6px;
+    border: none;
+    border-bottom: 2px solid rgb(128, 125, 125);
 }
-
 .btn3 {
     margin: 10%;
-    padding: 1%;
+    padding: 2%;
     background-image: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
     border-radius: 15px;
     color: white;
@@ -376,7 +392,7 @@ a {
         font-size: large;
     }
 
-    /* --------------------------Login--------------- */
+    /* --------------------------Login--------------------------- */
     .login-wrapper {
         width: 80vw;
     }
