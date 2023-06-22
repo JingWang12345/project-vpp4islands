@@ -41,7 +41,8 @@ body {
     height: 40px;
     font-size: x-large;
     border-radius: 15px;
-
+    border: none;
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 28%);
 
 }
 
@@ -51,7 +52,9 @@ body {
     background-size: cover;
     /* border-radius: 15px;   */
 }
-
+.home-p{
+    width: 80%;
+}
 .home-letter {
     display: flex;
     flex-direction: column;
@@ -96,6 +99,7 @@ p {
 .home-img {
     width: 10%;
     transform: scale(0.5);
+
 }
 
 /* ----------------Login------------------------------------------------- */
@@ -228,7 +232,8 @@ a {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    line-height: 150px;
+    line-height: 30px;
+    margin-bottom: 10%;
 }
 
 .form-wrapper-v {
