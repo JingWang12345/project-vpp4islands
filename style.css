@@ -299,6 +299,8 @@ a {
     height: 40px;
     font-size: x-large;
     border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 28%);
 }
 
 .img-flag {
@@ -311,9 +313,10 @@ a {
 }
 
 .flag {
-    width: 6vw;
-    height: 6vh;
-   
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+    display: flex;
    
 }
 
