@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Open Sans Light'; */
+    /* letter-spacing: .05em;*/
+    box-sizing: border-box; 
+    /* border: solid 2px rgb(183, 157, 209);  */
+    /* font-family: 'Ubuntu', sans-serif !important; */
+}
+
+html,
+body {
+   width: 100vw;
+   height: 100vh;
+   background: #040d32;
+}
+
+.container-map {
+    height: 100vh;
+    display: flex;
+    flex-direction: row; 
+
+    background-image: url('./assets/bg-bigdate.png') ; 
+    /* border: #0052D4 50px solid; */
+ 
+}
+.left-part{
+    width: 60vw;
+}
+.nav-header{
+    display: flex;
+    height: 10vh;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.bar-map{
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 28%);
+}
+a{
+    text-decoration-line: none;
+}
+.map-reale{
+    height: 80vh;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+  }
+  .img-bg{
+    
+  }
+.img-flag{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center; 
+    gap: 10%;
+    
+  
+}
+.flag{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+   
+    
+}
+.secondo-part{
+    position: relative;
+    margin:  3%; 
+    width:40vw ;
+    height: 80vh;
+    background: rgba(1, 19, 67, 0.8);
+    border: 2px solid #00a1ff;
+    border-radius: 8px;
+  
+    
+  
+}
+.secondo-part::before{
+   position: absolute;
+   top: -2px;
+   bottom: -2px; 
+   left: 30px;
+   width: calc(100%-60px);
+   content: "";
+   border-top:2px solid white;
+   border-bottom: 2px solid white;
+   z-index: 0;
+}
+.secondo-part::after{
+    position: absolute;
+    top: 30px;  
+    right:-2px ;
+    left: -2px;
+    height: calc(100%-60px);
+    content: "";
+    border-right:2px solid #016886 ;
+    border-left: 2px solid #016886;
+    z-index: 0;
+}
+span{
+    line-height: 100px;
+    text-align: center;
+    color:#00a1ff;
+}
+
+.li-button{
+
+    width:50px;
+    height: 20px;
+    font-size: large;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 28%);
+}
+
+.spacer{
+    width: 50%;
+}
+
+li{
+    padding: 1% 10%;
+    display: flex;
+    flex-direction: row;
+    color: rgb(3, 228, 3);
+}
