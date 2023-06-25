@@ -79,21 +79,21 @@ a{
     width:40vw ;
     height: 90vh;
     background: rgba(1, 19, 67, 0.8);
-    border: 2px solid #00a1ff;
+    border: 2px solid #00a1ff; 
     border-radius: 8px;
   
     
   
 }
-.secondo-part::before{
+ .secondo-part::before{ 
    position: absolute;
    top: -2px;
    bottom: -2px; 
    left: 30px;
    width: calc(100%-60px);
    content: "";
-   border-top:2px solid white;
-   border-bottom: 2px solid white;
+   border-top:2px solid #016886;
+   border-bottom: 2px solid #016886;
    z-index: 0;
 }
 .secondo-part::after{
@@ -106,7 +106,7 @@ a{
     border-right:2px solid #016886 ;
     border-left: 2px solid #016886;
     z-index: 0;
-}
+} 
 span{
     line-height: 100px;
     text-align: center;
