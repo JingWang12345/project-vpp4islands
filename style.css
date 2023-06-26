@@ -209,7 +209,7 @@ a {
 }
 
 .left {
-    background-image: url('./assets/F3.jpg');
+    background-image: url('./assets/view.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
@@ -264,6 +264,15 @@ a {
     text-align: center;
 
 
+}
+
+#overlay{
+position: absolute;
+left: 0px;
+height: 100%;
+width: 100%;
+display: none;
+background-color:rgba(100, 100, 100, .6);
 }
 
 /* --------------Register------------------------------------------------------------- */
