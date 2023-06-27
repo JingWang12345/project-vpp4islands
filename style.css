@@ -269,11 +269,49 @@ a {
 #overlay{
 position: absolute;
 left: 0px;
+top: 0px;
 height: 100%;
 width: 100%;
+font-size: 16px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, endColorstr=#7f000000);
 display: none;
 background-color:rgba(100, 100, 100, .6);
 }
+ 
+.popup{
+    background-color: #fafafa;
+    max-width: 400px;
+    min-width: 200px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+}
+.popup_title{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: solid 1px #cccccc;
+}
+.popup_content{
+    height: 50px;
+    line-height: 50px; 
+    padding: 15px 20px; 
+}
+.popup_btn{
+    padding-bottom: 10px;
+}
+.cancelBtn{
+    color: #778899;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    margin: 5px 10px;
+    color: #ffffff;
+    background-color: #337ab7;
+}
+
 
 /* --------------Register------------------------------------------------------------- */
 
