@@ -3,11 +3,9 @@
 * {
     padding: 0;
     margin: 0;
-    /* font-family: 'Open Sans Light'; */
-    /* letter-spacing: .05em;*/
     box-sizing: border-box;
-    /* border: solid 2px rgb(183, 157, 209);      */
-    /* font-family: 'Ubuntu', sans-serif !important; */
+    /* border: solid 2px rgb(183, 157, 209);       */
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 html,
@@ -22,10 +20,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: row;
-
     /* background-image: url('./assets/bg-bigdate.png') ;  */
-    /* border: #0052D4 50px solid; */
-
+    /* border: #0052D4 50px solid;  */
 }
 
 .left-part {
@@ -84,7 +80,6 @@ a {
 }
 
 .secondo-part {
-    position: relative;
     margin: 2%;
     width: 40vw;
     height: 90vh;
@@ -94,8 +89,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .date-title {
@@ -103,24 +96,18 @@ a {
     justify-content: center;
     font-size: large;
     font-weight: bold;
-    padding-right: 3%;
-    /* background: rgba(1, 19, 67, 1); */
 }
 
 span {
     line-height: 100px;
     color: #fafafa;
-    /* color: #1770a4;  */
 }
 
-/* .map-data {
-    display: flex;
-    justify-content: space-between;
-} */
 ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 60vh;
 }
 
 .li-button {
@@ -144,5 +131,5 @@ li {
     justify-content: space-between;
     /* padding: 1% 20%; */
     /* margin: auto; */
-     border-bottom: 2px solid #1770a4;  
+    border-bottom: 2px solid #1770a4;
 }

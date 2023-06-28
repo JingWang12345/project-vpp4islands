@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     background-color: #fafafa;
     /* border: #0052D4 50px solid; */
-
 }
 
 .nav-bar1 {
@@ -33,7 +32,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2%;
-
 }
 
 .bar1 {
