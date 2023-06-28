@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: solid 2px rgb(183, 157, 209);       
+    font-family: 'Ubuntu', sans-serif !important;
+}
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background: #040d32;  */
+    background-color: #fafafa;
+}
+.container-map2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
+.first-part{
+    height: 10vh;
+}
+.second-part{
+    height: 50vh;
+     background-image:url('./assets/Screenshot 2023-06-27 at 10.45.32.png');
+     background-repeat: no-repeat;
+     background-size:contain; 
+}
+.third-part{
+    height: 40vh;
+}
