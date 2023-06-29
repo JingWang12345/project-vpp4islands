@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: solid 2px rgb(183, 157, 209);       */
+ /* border: solid 2px rgb(183, 157, 209);        */
     font-family: 'Ubuntu', sans-serif !important;
 }
 
@@ -12,83 +12,87 @@ html,
 body {
     width: 100vw;
     height: 100vh;
-    /* background: #040d32;  */
     background-color: #fafafa;
 }
 
 .container-map {
     height: 100vh;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: #fafafa;
     /* background-image: url('./assets/bg-bigdate.png') ;  */
     /* border: #0052D4 50px solid;  */
 }
 
-.left-part {
-    width: 60vw;
+.header-part {
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
 }
 
 .nav-header {
+    width: 60vw;
+    font-size: x-large;
     display: flex;
-    height: 15vh;
-    font-size: xx-large;
     align-items: center;
-    justify-content: center;
-    gap: 2%;
+    justify-content: space-around;
 }
 
-.bar-map {
-    width: 100px;
+.bar-link {
+    width: 150px;
     height: 40px;
     font-size: x-large;
     border-radius: 15px;
     border: none;
     box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 28%);
-}
 
+}
 a {
     text-decoration-line: none;
     color: #1770a4;
 }
-
-.map-reale {
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.img-bg {
-    width: 60vw;
-    height: 70vh;
-    margin-left: 3%;
-    border: 2px solid #00a1ff;
-}
-
 .img-flag {
+    width: 40vw;
     display: flex;
-    height: 15vh;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10%;
+    gap: 50px;
 }
 
 .flag {
     width: 60px;
     height: 60px;
-    border-radius: 100px;
+    border-radius: 45px;
+    display: flex;
+}
+.middle-part{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto; 
+}
+
+.img-bg {
+    width: 60vw;
+    height: 70vh;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
 }
 
 .secondo-part {
-    margin: 2%;
     width: 40vw;
-    height: 90vh;
-    border: 2px solid #00a1ff;
-    border-radius: 15px;
+    height: 70vh;
+    border-radius: 0 15px 15px 0;
     background: rgba(1, 19, 67, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 0 0 1px hsla(240, 0%, 100%, .3) inset, 0 .5em 1em rgba(0, 0, 0, 0.6);
 }
 
 .date-title {
@@ -99,7 +103,7 @@ a {
 }
 
 span {
-    line-height: 100px;
+    line-height: 60px;
     color: #fafafa;
 }
 
@@ -108,6 +112,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     height: 60vh;
+    overflow-y: auto;
 }
 
 .li-button {
