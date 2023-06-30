@@ -112,8 +112,27 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     height: 60vh;
-    overflow-y: auto;
+    overflow-y:auto;
+    padding-right: 20px;
 }
+/* width */
+ul::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ul::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ul::-webkit-scrollbar-thumb {
+    /* background: rgb(59, 61, 68);  */
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+ 
+  }
 
 .li-button {
     width: 50px;
